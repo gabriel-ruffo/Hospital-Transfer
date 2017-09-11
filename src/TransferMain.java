@@ -28,7 +28,7 @@ public class TransferMain {
     public static void main(String[] args) {
         String sessionID = Login.LoginAndGetUserSessionID();
 
-        // check if the sessionID is valid; exit if not
+        // check if the  sessionID is valid; exit if not
         if (sessionID.equals("")) {
             System.err.println("ERROR: SessionID is invalid.");
             System.exit(1);
